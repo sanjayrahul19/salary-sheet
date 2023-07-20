@@ -48,11 +48,11 @@ export const generateHtml=async(data)=>{
         </div>
         `,
     });
-    if(info){
-      console.log(info)
-    }else{
-      console.log("Mail not sent")
-    }
+    // if(info){
+    //   console.log(info)
+    // }else{
+    //   console.log("Mail not sent")
+    // }
 }
 
   

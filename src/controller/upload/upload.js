@@ -54,9 +54,11 @@ export const upload = async (req, res) => {
       "In_Words",
     ];
 
+    const firstRowKeys = Object.keys(firstRow).map((key) => key.trim());
+
     const missingColumns = [];
     for (const column of requiredColumns) {
-      if (!firstRow[column]) {
+      if (!firstRowKeys.includes(column)) {
         missingColumns.push(column);
       }
     }

@@ -37,7 +37,7 @@ export const upload = async (req, res) => {
       "HRA",
       "Conveyance",
       "Food_Allowance",
-      "Eduction_Allowance",
+      "Education_Allowance",
       "Special_Allowance",
       "Performance_Bonus",
       "Overtime_Pay",
